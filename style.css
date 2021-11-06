@@ -24,6 +24,7 @@ html {
 
 .about .about-content,
 .skills .skills-content,
+.education .education-content,
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +51,7 @@ html {
     font-size: 20px;
     color: crimson;
     padding: 5px;
-    background: white;
+    background:white;
     transform: translateX(-50%);
 }
 
@@ -331,27 +332,27 @@ section {
 }
 
 .skills .skills-content .right .js::before {
-    width: 90%;
+    width: 30%;
 }
 
-.skills .skills-content .right .react::before {
+/*.skills .skills-content .right .react::before {
     width: 75%;
-}
+}*/
 
 .skills .skills-content .right .java::before {
     width: 75%;
 }
 
-.skills .skills-content .right .python::before {
-    width: 75%;
+.skills .skills-content .right .DSA::before {
+    width: 60%;
 }
 
-.skills .skills-content .right .tableau::before {
+/*.skills .skills-content .right .tableau::before {
     width: 75%;
-}
+}*/
 
-.skills .skills-content .right .sql::before {
-    width: 90%;
+.skills .skills-content .right .C::before {
+    width: 75%;
 }
 
 
@@ -438,7 +439,7 @@ section {
         width: 100%;
         left: -100%;
         top: 0;
-        background: #fff;
+        background:#fff;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
